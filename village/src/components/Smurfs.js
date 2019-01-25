@@ -10,7 +10,7 @@ class Smurfs extends Component {
   render() {
     return (
       <div className="Smurfs">
-        <h1 className="title">Smurf Village</h1>
+        <h1 className="title">Smurf Village!</h1>
         <div className="smurf-form-link">
           <NavLink  to="/smurf-form">Add a Smurf!</NavLink>
         </div>

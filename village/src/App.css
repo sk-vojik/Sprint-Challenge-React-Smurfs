@@ -46,6 +46,11 @@
   border: 1px solid gray;
   border-radius: 5px;
   padding: 24px;
+  text-decoration: none;
+}
+
+.Smurf h3 {
+  text-decoration: none;
 }
 
 .Smurf:hover {
