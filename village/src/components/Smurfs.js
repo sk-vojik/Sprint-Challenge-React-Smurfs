@@ -12,7 +12,7 @@ class Smurfs extends Component {
       <div className="Smurfs">
         <h1 className="title">Smurf Village</h1>
         <div className="smurf-form-link">
-          <NavLink  to="/smurf-form">Add a smurf!</NavLink>
+          <NavLink  to="/smurf-form">Add a Smurf!</NavLink>
         </div>
         <ul className="smurf-list">
           {this.props.smurfs.map(smurf => {
