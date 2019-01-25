@@ -1,3 +1,53 @@
+* {
+  box-sizing: border-box;
+
+}
+
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.smurf-list {
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.smurf-form-link {
+  margin: 60px auto;
+  font-size: 1.5rem;
+}
+
+.smurf-form-link a:hover {
+  color: red;
+}
+
+.smurf-list {
+  margin: 48px auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Smurf {
+  margin: 12px 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 24px;
+}
+
+.Smurf:hover {
+  background-color: white;
+  cursor: pointer;
 }

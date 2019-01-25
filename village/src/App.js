@@ -59,7 +59,9 @@ class App extends Component {
     return (
       <div className="App">
 
+        <div className="container">
         <Route 
+          className="smurf-form"
           path="/smurf-form"
           render={props => (
             <SmurfForm 
@@ -68,8 +70,10 @@ class App extends Component {
             />
           )}
         />
+        
 
         <Route
+          className="smurf-list"
           exact
           path="/"
           render={props => (
@@ -79,6 +83,7 @@ class App extends Component {
             />
           )}
         />
+        </div>
 
       </div>
     );
