@@ -1,3 +1,101 @@
+* {
+  box-sizing: border-box;
+
+}
+
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.smurf-list {
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.smurf-form-link {
+  margin: 60px auto;
+  font-size: 1.5rem;
+}
+
+.smurf-form-link a:hover {
+  color: red;
+}
+
+.smurf-list {
+  margin: 48px auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Smurf {
+  margin: 12px 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 24px;
+  text-decoration: none;
+}
+
+.Smurf h3 {
+  text-decoration: none;
+}
+
+.Smurf:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.SmurfForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-link {
+  margin: 48px auto;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  color: red;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin: 8px auto;
+  padding: 14px 6px;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+form button {
+  margin: 18px auto;
+  padding: 14px 6px;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+form button:hover {
+  color: blue;
+  border-color: red;
+  font-weight: bold;
+  padding: 20px 10px;
+  cursor: pointer;
 }
