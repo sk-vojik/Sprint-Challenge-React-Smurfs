@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom'
+import { NavLink, Route } from 'react-router-dom'
 
 import "../App.css";
 
@@ -24,9 +24,12 @@ class Smurfs extends Component {
                 height={smurf.height}
                 key={smurf.id}
               />
+
+              
             );
           })}
         </ul>
+        
         
       </div>
     );
